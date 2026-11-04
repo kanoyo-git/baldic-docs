@@ -1,0 +1,10 @@
+{
+  "title": "Baldic — руководство разработчика",
+  "description": "Loader, Mixins, API BB+ и API BBCR: установка, разработка и справочник.",
+  "author": "Kanoyo",
+  "language": "ru",
+  "structure": { "readme": "README.md", "summary": "SUMMARY.md" },
+  "plugins": ["-sharing", "-livereload", "-fontsettings"],
+  "styles": { "website": "styles/website.css" },
+  "links": { "sidebar": { "Исходники документации": "https://github.com/kanoyo-git/baldic-docs" } }
+}

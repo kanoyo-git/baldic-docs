@@ -1,0 +1,17 @@
+Baldic documentation and original site styling: Copyright (c) 2026 Baldic contributors.
+Available under MIT OR Apache-2.0; see LICENSE-MIT and LICENSE-APACHE.
+
+HonKit 6.2.5 and the unmodified classic book theme are Apache-2.0.
+Their notices and licenses are retained in licenses/.
+HonKit: https://github.com/honkit/honkit
+Search plugin: https://github.com/GitbookIO/plugin-search (Apache-2.0).
+
+The theme bundles Font Awesome 4.6.3 by Dave Gandy.
+Font: SIL Open Font License 1.1; CSS: MIT.
+https://github.com/FortAwesome/Font-Awesome/tree/v4.6.3
+https://fontawesome.com/v4/license/
+
+Source-generated API signatures describe Baldic's public contracts.
+Baldic Loader derives from BepInEx (MIT); Baldic Mixins derives from
+HarmonyX/Harmony (MIT). This documentation contains no executable binaries.
+Baldi's Basics is developed by Basically Games; game assemblies are not included.

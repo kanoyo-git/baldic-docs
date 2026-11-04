@@ -1,0 +1,226 @@
+[
+  {
+    "page": "reference/loader-facades.md",
+    "assembly": "BepInEx",
+    "version": "5.4.23.6",
+    "types": 23,
+    "members": 120,
+    "sha256": "04017aeb12f0229a5a9b3b6b80c9142ebe00a190d7dd744fc83677df8858346f"
+  },
+  {
+    "page": "reference/loader-runtime.md",
+    "assembly": "Baldic.Loader",
+    "version": "1.0.0.0",
+    "types": 38,
+    "members": 191,
+    "sha256": "fc175e96e062d9c949bdb85771e42f83347bf2b393a4cb43febc653d6cfde767"
+  },
+  {
+    "page": "reference/early-pipeline.md",
+    "assembly": "Baldic.Loader.Preloader",
+    "version": "1.0.0.0",
+    "types": 16,
+    "members": 86,
+    "sha256": "8653daa10709f2e197bafb5ca9f2ebc0c1d019bbc054c31f460861862c73f49b"
+  },
+  {
+    "page": "reference/mixins-low-level.md",
+    "assembly": "0Harmony",
+    "version": "2.9.0.0",
+    "types": 24,
+    "members": 79,
+    "sha256": "e13521414efa7878f2ccf456e7e185365c10f2a7f864ee36be662c23c08f6a08"
+  },
+  {
+    "page": "reference/mixins-runtime.md",
+    "assembly": "Baldic.Loader",
+    "version": "1.0.0.0",
+    "types": 11,
+    "members": 58,
+    "sha256": "fc175e96e062d9c949bdb85771e42f83347bf2b393a4cb43febc653d6cfde767"
+  },
+  {
+    "page": "reference/bbplus/assets.md",
+    "assembly": "Baldic.Api.Assets",
+    "version": "0.0.0.0",
+    "types": 30,
+    "members": 155,
+    "sha256": "0b4c34f77455f3edb69e37e8e3bc3fb8ab979c461aab8ddcb73c8fa3bc692d94"
+  },
+  {
+    "page": "reference/bbplus/builders.md",
+    "assembly": "Baldic.Api.Builders",
+    "version": "0.0.0.0",
+    "types": 11,
+    "members": 131,
+    "sha256": "d1258dc69e00ebdcae7c5442c51e07c7b4824d3fd1ff17001312f6a66dffd429"
+  },
+  {
+    "page": "reference/bbplus/core.md",
+    "assembly": "Baldic.Api.Core",
+    "version": "0.0.0.0",
+    "types": 20,
+    "members": 149,
+    "sha256": "8d07e1562a7216821b1bf8e76a3cab42b96074a42c5116fe1ffd230e588bfc1d"
+  },
+  {
+    "page": "reference/bbplus/diagnostics.md",
+    "assembly": "Baldic.Api.Diagnostics",
+    "version": "0.0.0.0",
+    "types": 5,
+    "members": 22,
+    "sha256": "f64427d3ff5632822870ee56ce39ba9f2a399fb15991b26f420d485954746812"
+  },
+  {
+    "page": "reference/bbplus/game.md",
+    "assembly": "Baldic.Api.Game",
+    "version": "0.0.0.0",
+    "types": 28,
+    "members": 462,
+    "sha256": "01f7d153d48945aff58c81c173e61a9af230294de099323c6350573edcc5a73d"
+  },
+  {
+    "page": "reference/bbplus/gameplay.md",
+    "assembly": "Baldic.Api.Gameplay",
+    "version": "0.0.0.0",
+    "types": 33,
+    "members": 174,
+    "sha256": "52f057468a505eb3fc87c3c97011b2dc509b66b29f529186df568882a1d92259"
+  },
+  {
+    "page": "reference/bbplus/highscores.md",
+    "assembly": "Baldic.Api.HighScores",
+    "version": "0.0.0.0",
+    "types": 4,
+    "members": 34,
+    "sha256": "4a147d505a4f0b4218ffd589d31eab191375d328b526a5fcbff249a40f30693a"
+  },
+  {
+    "page": "reference/bbplus/loading.md",
+    "assembly": "Baldic.Api.Loading",
+    "version": "0.0.0.0",
+    "types": 10,
+    "members": 50,
+    "sha256": "8dcaf9146d2a2a9033cee12a456fce85b0d3c92811792c47acce50dc194e13fa"
+  },
+  {
+    "page": "reference/bbplus/metadata.md",
+    "assembly": "Baldic.Api.Metadata",
+    "version": "0.0.0.0",
+    "types": 19,
+    "members": 118,
+    "sha256": "d4c8ed5316571bc4affc51ba1d760dfb5698a5fbb81fb1532b67d6229fb90150"
+  },
+  {
+    "page": "reference/bbplus/options-ui.md",
+    "assembly": "Baldic.Api.OptionsUi",
+    "version": "0.0.0.0",
+    "types": 10,
+    "members": 77,
+    "sha256": "e26fe75d1f17490e9e373fb977c9fcff14d18d4c1f5d0e6205a60b9728f04841"
+  },
+  {
+    "page": "reference/bbplus/patches.md",
+    "assembly": "Baldic.Api.Patches",
+    "version": "0.0.0.0",
+    "types": 1,
+    "members": 2,
+    "sha256": "84f6fdeda4d83168aba184d05105d01307b8ba47b59e9f42b59d80369884d9d6"
+  },
+  {
+    "page": "reference/bbplus/registry.md",
+    "assembly": "Baldic.Api.Registry",
+    "version": "0.0.0.0",
+    "types": 18,
+    "members": 181,
+    "sha256": "f105fa6a9db67ee26e3da41c4b63641d8c41dc4bb44080ad6967be7212688a9a"
+  },
+  {
+    "page": "reference/bbplus/saves.md",
+    "assembly": "Baldic.Api.Saves",
+    "version": "0.0.0.0",
+    "types": 20,
+    "members": 149,
+    "sha256": "fee324e9ea42791749c5fc91743f9df87fc3e3d11e831fb67d0f33a28e09fa29"
+  },
+  {
+    "page": "reference/bbplus/stickers.md",
+    "assembly": "Baldic.Api.Stickers",
+    "version": "0.0.0.0",
+    "types": 11,
+    "members": 70,
+    "sha256": "8965df0ac1e488a7b44ba8cb85eea4936deb70b5f9f7ee5478ffad23cc4368e2"
+  },
+  {
+    "page": "reference/bbplus/worldgen.md",
+    "assembly": "Baldic.Api.Worldgen",
+    "version": "0.0.0.0",
+    "types": 11,
+    "members": 53,
+    "sha256": "6cb4507e364f3123836ade13b1053c0407c5bbc741a299e1b2c8d09d70d9122e"
+  },
+  {
+    "page": "reference/bbcr/assets.md",
+    "assembly": "Baldic.Api.Bbcr.Assets",
+    "version": "0.0.1.0",
+    "types": 31,
+    "members": 157,
+    "sha256": "e7e3146ec6c97c6f8f8007511f0a8fc4640d3fe61501c057a8b2ccf5d5bf4367"
+  },
+  {
+    "page": "reference/bbcr/content.md",
+    "assembly": "Baldic.Api.Bbcr.Content",
+    "version": "0.0.1.0",
+    "types": 5,
+    "members": 58,
+    "sha256": "ee83951eb6b4faa6836881a4e10b6bebb37e64549103d3d7a5db370dfb6f1cb3"
+  },
+  {
+    "page": "reference/bbcr/core.md",
+    "assembly": "Baldic.Api.Bbcr.Core",
+    "version": "0.0.1.0",
+    "types": 19,
+    "members": 149,
+    "sha256": "45e60b2af8b8bf827ff7a1aa89509b78f255d31c0f04272d6334da033cc011c5"
+  },
+  {
+    "page": "reference/bbcr/data.md",
+    "assembly": "Baldic.Api.Bbcr.Data",
+    "version": "0.0.1.0",
+    "types": 7,
+    "members": 41,
+    "sha256": "b09fa685b2945b84459646ae04f4cc734186354c67fa83c7201f770e33e79c6b"
+  },
+  {
+    "page": "reference/bbcr/game.md",
+    "assembly": "Baldic.Api.Bbcr.Game",
+    "version": "0.0.1.0",
+    "types": 5,
+    "members": 55,
+    "sha256": "8091ab5d24f190c05972a07eddf5b4be96611db38862e3ffb2e46e150672e4e6"
+  },
+  {
+    "page": "reference/bbcr/loading.md",
+    "assembly": "Baldic.Api.Bbcr.Loading",
+    "version": "0.0.1.0",
+    "types": 9,
+    "members": 45,
+    "sha256": "f1251788e763303381182d1fc61b7bf6dc5f32db305688758e5e2a69e934b337"
+  },
+  {
+    "page": "reference/bbcr/patches.md",
+    "assembly": "Baldic.Api.Bbcr.Patches",
+    "version": "0.0.1.0",
+    "types": 1,
+    "members": 2,
+    "sha256": "869cc254baead3cae2abd65a2157544c990b1cffcd807a5de6d760d607399efb"
+  },
+  {
+    "page": "reference/bbcr/ui.md",
+    "assembly": "Baldic.Api.Bbcr.Ui",
+    "version": "0.0.1.0",
+    "types": 3,
+    "members": 18,
+    "sha256": "bb022a528e6bb4ba545df413f0692265dd7d84d5f1dc747d5889f05a1650b409"
+  }
+]

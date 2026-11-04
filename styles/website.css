@@ -1,0 +1,34 @@
+:root{--baldic-green:#28702d;--baldic-ink:#253129;--baldic-muted:#617064;--baldic-line:#dce5d8;--baldic-paper:#fff;--baldic-side:#f4f7f1}
+.book{color:var(--baldic-ink);font-family:"Segoe UI","Liberation Sans",Arial,sans-serif}
+.book-summary{background:var(--baldic-side);border-right:1px solid var(--baldic-line);font-family:inherit}
+.book-summary:before{content:"Baldic\AРуководство разработчика";white-space:pre;display:block;padding:29px 16px 25px 77px;background:url(../assets/baldic-logo.png) no-repeat 18px center;background-size:46px;font-size:14px;line-height:1.6;font-weight:600;border-bottom:1px solid var(--baldic-line);color:var(--baldic-ink)}
+.book-summary ul.summary li.header{color:var(--baldic-muted);font-size:11px;letter-spacing:.06em;padding-top:23px;text-transform:uppercase}
+.book-summary ul.summary li a{color:#35443a;padding-top:9px;padding-bottom:9px;white-space:normal;line-height:1.35}
+.book-summary ul.summary li.active>a{color:var(--baldic-green);font-weight:600;background:#e8f0e2;border-left:3px solid var(--baldic-green);padding-left:12px}
+.book-summary ul.summary li a:hover{color:var(--baldic-green);text-decoration:none;background:#edf2e8}
+.book-header{color:var(--baldic-muted);background:var(--baldic-paper);border-bottom:1px solid var(--baldic-line)}
+.book-header h1{font-family:inherit;font-size:14px;font-weight:500}
+.book-body{background:var(--baldic-paper)}
+.page-inner{max-width:980px;padding:35px 50px 60px}
+.markdown-section{font-family:inherit;font-size:16px;line-height:1.75;color:var(--baldic-ink)}
+.markdown-section h1,.markdown-section h2,.markdown-section h3{font-family:inherit;letter-spacing:-.025em;line-height:1.25;color:#1c2c20}
+.markdown-section h1{font-size:33px;margin-bottom:25px}
+.markdown-section h2{font-size:24px;margin-top:42px;padding-top:9px;border-top:1px solid #e7ece4}
+.markdown-section h3{font-size:19px;margin-top:29px}
+.markdown-section a{color:var(--baldic-green);text-decoration:underline;text-underline-offset:3px}
+.markdown-section blockquote{border-left:3px solid var(--baldic-green);background:var(--baldic-side);padding:12px 18px;color:#405143}
+.markdown-section code,.markdown-section pre{font-family:"Cascadia Code","DejaVu Sans Mono",Consolas,monospace;font-size:13px;line-height:1.7}
+.markdown-section code{background:#eff3ec;color:#28452c;padding:2px 5px;border-radius:3px}
+.markdown-section pre{background:#f5f7f3;border:1px solid var(--baldic-line);border-radius:6px;padding:18px 20px}
+.markdown-section pre>code{background:none;color:inherit;padding:0;font-size:13px}
+.markdown-section table{display:block;width:100%;overflow:auto;font-size:14px;line-height:1.6}
+.markdown-section table td,.markdown-section table th{padding:10px 13px;border-color:var(--baldic-line)}
+.markdown-section table th{background:#edf3e8;color:#2a422e}
+.markdown-section table tr:nth-child(2n){background:#f8faf6}
+.book .book-summary #book-search-input{background:white;border-bottom:1px solid var(--baldic-line)}
+.book .book-summary #book-search-input input{font-size:14px;color:var(--baldic-ink)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #70ad52!important;outline-offset:3px}
+.navigation{color:#6b8665}
+.navigation:hover{color:var(--baldic-green)}
+@media(max-width:600px){.page-inner{padding:23px 20px 45px}.markdown-section{font-size:15px}.markdown-section h1{font-size:28px}.markdown-section h2{font-size:22px}.markdown-section pre{padding:13px}.markdown-section table{font-size:13px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}

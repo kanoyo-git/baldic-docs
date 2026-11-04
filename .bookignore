@@ -1,0 +1,11 @@
+node_modules
+_site
+.git
+.github
+scripts
+package.json
+package-lock.json
+.bookignore
+.gitignore
+.gitbook.yaml
+_i18n

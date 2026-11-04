@@ -1,0 +1,14 @@
+{
+  "name": "baldic-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Русское руководство Baldic Loader, Mixins и игровых API",
+  "license": "MIT OR Apache-2.0",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "build": "honkit build . _site && node scripts/check-site.mjs",
+    "serve": "honkit serve . _site"
+  },
+  "engines": { "node": ">=22" },
+  "devDependencies": { "honkit": "6.2.5" }
+}
