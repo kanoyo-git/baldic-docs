@@ -21,6 +21,8 @@ npm run serve
 
 Workflow `.github/workflows/pages.yml` собирает книгу после push в `main`, проверяет её и публикует HTML через официальный Pages artifact. В Settings → Pages выбран источник GitHub Actions. Ручной запуск доступен через workflow_dispatch.
 
+Для другого имени репозитория измените `variables.siteRoot` в `book.json`: оно задаёт префикс путей значка сайта. В текущем проекте используется `/baldic-docs`.
+
 На GitHub Free для Pages нужен публичный репозиторий. Стандартный адрес проекта: `https://kanoyo-git.github.io/baldic-docs/`. Собственный домен необязателен. [Условия GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
 ## Изменение глав

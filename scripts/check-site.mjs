@@ -30,7 +30,7 @@ for(const [file,text] of html){
 for(const file of all.filter(file=>file.endsWith('.css'))){
  for(const match of fs.readFileSync(file,'utf8').matchAll(/url\(['"]?([^'"\s)]+)['"]?\)/g))checkLink(file,match[1]);
 }
-for(const name of ['book.json','package.json','node_modules','scripts','.git','.github','.gitbook.yaml'])if(fs.existsSync(path.join(root,name)))errors.push('Build exposes '+name);
+for(const name of ['book.json','package.json','node_modules','scripts','.git','.github','.gitbook.yaml','_layouts','_i18n'])if(fs.existsSync(path.join(root,name)))errors.push('Build exposes '+name);
 if(all.some(file=>/\.(?:dll|exe|baldic|pdb)$/i.test(file)))errors.push('Build contains a binary release file');
 const index=JSON.parse(fs.readFileSync(path.join(root,'search_index.json'),'utf8'));
 if(Object.keys(index.store).length!==expected)errors.push('Search index omits pages');
