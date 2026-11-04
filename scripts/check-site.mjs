@@ -24,7 +24,8 @@ const expected=[...summary.matchAll(/\[[^\]]+\]\([^)]+\)/g)].length;
 if(pages.length!==expected)errors.push('Page count differs from SUMMARY');
 for(const [file,text] of html){
  if(!text.includes('<html lang="ru"')||!text.includes('Baldic — руководство разработчика</title>'))errors.push(path.relative(root,file)+': book configuration was not loaded');
- if(!text.includes('placeholder="Введите условия поиска"')||!text.includes('Ничего не найдено'))errors.push(path.relative(root,file)+': missing Russian search interface');
+ if(!text.includes('placeholder="Подготовка поиска…" disabled')||!text.includes('Ничего не найдено'))errors.push(path.relative(root,file)+': missing Russian search readiness interface');
+ if(!text.includes('href="/baldic-docs/assets/baldic-logo.png"'))errors.push(path.relative(root,file)+': missing project-root site icon');
  for(const match of text.matchAll(/\b(?:href|src)="([^"]+)"/g))checkLink(file,match[1]);
 }
 for(const file of all.filter(file=>file.endsWith('.css'))){
